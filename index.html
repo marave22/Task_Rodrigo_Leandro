@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="./style.css">
+    <title>Task</title>
 </head>
+
 <body>
-    <div class="main">
-        <div class="inner">
-            
-        </div>
+    <button id="btn" onclick="onClickBigCircle(event)">Button</button>
+    <div id="big_circle" class="big_circle">
+        <p class="big_circle_txt">A</p>
     </div>
+    <div id="small_circle" class="small_circle">
+        <p class="small_circle_txt">B</p>
+    </div>
+    <section class="container">
+        <div class="main">
+            <div class="inner"></div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
 </body>
+
 </html>
+
+<!-- TODO -->
+
+<!-- 
+    If I'll click the "button", The big Circle color changed from black to Orange.
+
+    And if you click "button" again, big circle color change from orange to yellow.
+
+    If you click "button" again, big circle color change from yellow to black.
+
+    If button is held for > 2 seconds: small circle blinks RED 5 times (on 0.5sec, off 0.5sec)
+ -->
