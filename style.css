@@ -30,8 +30,8 @@ div.inner {
 div.big_circle {
     display: block;
     position: absolute;
-    margin-left: 55%;
-    margin-top: 3%;
+    margin-left: 48%;
+    margin-top: 10%;
     width: 150px;
     height: 150px;
     background-color: #000;
@@ -53,8 +53,8 @@ p.big_circle_txt {
 div.small_circle {
     display: block;
     position: absolute;
-    margin-left: 59%;
-    margin-top: 17%;
+    margin-left: 51%;
+    margin-top: 19%;
     width: 20px;
     height: 20px;
     background-color: #000;
@@ -85,13 +85,13 @@ p.small_circle_txt {
 }
 
 button {
-    margin-top: 14%;
+    margin-top: 17%;
     position: absolute;
     color: #fff;
     width: 100px;
     height: 40px;
-    margin-left: 45%;
-    margin-bottom: 2%;
+    margin-left: 40%;
+    /* margin-bottom: 47%; */
     background-color: #a8a8a8;
     z-index: 1;
     transform: rotate(-20deg);
